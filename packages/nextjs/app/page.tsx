@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       </p>
         
       <p className=" font-medium text-xl p-4">
-      In order to use DeVolt, please use a desktop device or rotate your phone.
+      In order to use DeVolt, please try rotating your phone or use a desktop device.
       </p>
     </div>)
   }
