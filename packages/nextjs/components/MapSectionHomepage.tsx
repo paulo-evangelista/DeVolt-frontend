@@ -65,7 +65,9 @@ const MapSectionHomepage = () => {
         setClosestStationDistance(b);
       })
       .catch(err => {
-        toast.error("Error fetching stations");
+
+        // toast.error("Error fetching stations");
+        
         const { station: a, distance: b } = findClosestStation(mockStations, {
           x: location[0] || 0,
           y: location[1] || 0,
