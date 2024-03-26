@@ -125,7 +125,7 @@ const Map = ({
                   <p className="font-bold ">Carga disponível:</p>
                   <Progress
                     className="bg-slate-300"
-                    value={makePercentage(station.batteryLevel, station.maxCapacity).toFixed(0) || 50}
+                    value={parseInt(makePercentage(station.batteryLevel, station.maxCapacity).toFixed(0)) || 50}
                   ></Progress>
                   <p className="">
                     {makePercentage(station.batteryLevel, station.maxCapacity).toFixed(0) || 50}% (12 A/h)

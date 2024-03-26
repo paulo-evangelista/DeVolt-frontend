@@ -5,9 +5,12 @@ import { ThemeProvider } from "~~/components/ThemeProvider";
 import "~~/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "DeVolt | The descentralized charging network",
-  description: "Charge your car in the most blockchain way possible! | Built with 🏗 Scaffold-ETH 2",
+  title: "DeVolt | The distributed charging network",
+  description: "Charge your car or sell your exceeding energy in the most blockchain way possible!",
   icons: "/favicon.ico",
+  openGraph: {
+    images: "/ogimage.png",
+  }
 };
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
