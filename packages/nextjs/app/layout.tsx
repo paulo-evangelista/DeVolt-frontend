@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   icons: "https://www.devolt.xyz/favicon.ico",
   openGraph: {
     images: "https://www.devolt.xyz/ogimage.png",
+    type: "website",
+    url: "https://www.devolt.xyz",
+    locale: "en",
   }
 };
 
