@@ -7,9 +7,9 @@ import "~~/styles/globals.css";
 export const metadata: Metadata = {
   title: "DeVolt | The distributed charging network",
   description: "Charge your car or sell your exceeding energy in the most blockchain way possible!",
-  icons: "/favicon.ico",
+  icons: "https://www.devolt.xyz/favicon.ico",
   openGraph: {
-    images: "/ogimage.png",
+    images: "https://www.devolt.xyz/ogimage.png",
   }
 };
 
